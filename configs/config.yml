@@ -1,0 +1,9 @@
+port: "8000"
+
+db:
+  host: "rc1a-qe2n6248haq0c9u6.mdb.yandexcloud.net"
+  port: "6432"
+  username: "sa"
+  dbname: "todo-app-db"
+  sslmode: "verify-full"
+  sslrootcert: "/Users/sinyakovskiy/.postgresql/root.crt"

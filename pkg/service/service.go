@@ -1,12 +1,13 @@
 package service
 
 import (
-	"github.com/sinyakovskiy/todo-app"
-	"github.com/sinyakovskiy/todo-app/pkg/repository"
+	"github.com/sinyakovskiy/todo-app-go"
+	"github.com/sinyakovskiy/todo-app-go/pkg/repository"
 )
 
 type Authorization interface {
 	CreateUser(user todo.User) (int, error)
+	GenerateToken(username, password string) (string, error)
 }
 
 type TodoList interface {

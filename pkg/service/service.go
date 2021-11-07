@@ -1,8 +1,8 @@
 package service
 
 import (
-	"github.com/sinyakovskiy/todo-app-go"
-	"github.com/sinyakovskiy/todo-app-go/pkg/repository"
+	"github.com/fortross/todo-app-go"
+	"github.com/fortross/todo-app-go/pkg/repository"
 )
 
 type Authorization interface {

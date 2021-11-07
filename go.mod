@@ -1,4 +1,4 @@
-module github.com/sinyakovskiy/todo-app-go
+module github.com/fortross/todo-app-go
 
 go 1.17
 

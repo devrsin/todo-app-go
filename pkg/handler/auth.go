@@ -1,8 +1,8 @@
 package handler
 
 import (
+	"github.com/fortross/todo-app-go"
 	"github.com/gin-gonic/gin"
-	"github.com/sinyakovskiy/todo-app-go"
 	"net/http"
 )
 

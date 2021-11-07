@@ -1,8 +1,8 @@
 package repository
 
 import (
+	"github.com/fortross/todo-app-go"
 	"github.com/jmoiron/sqlx"
-	"github.com/sinyakovskiy/todo-app-go"
 )
 
 type Authorization interface {

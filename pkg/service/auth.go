@@ -4,8 +4,8 @@ import (
 	"crypto/sha1"
 	"fmt"
 	"github.com/dgrijalva/jwt-go"
-	"github.com/sinyakovskiy/todo-app-go"
-	"github.com/sinyakovskiy/todo-app-go/pkg/repository"
+	"github.com/fortross/todo-app-go"
+	"github.com/fortross/todo-app-go/pkg/repository"
 	"time"
 )
 

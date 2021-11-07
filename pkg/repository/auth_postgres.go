@@ -2,8 +2,8 @@ package repository
 
 import (
 	"fmt"
+	"github.com/fortross/todo-app-go"
 	"github.com/jmoiron/sqlx"
-	"github.com/sinyakovskiy/todo-app-go"
 )
 
 type AuthPostgres struct {

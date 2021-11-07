@@ -1,12 +1,12 @@
 package main
 
 import (
+	"github.com/fortross/todo-app-go"
+	"github.com/fortross/todo-app-go/pkg/handler"
+	"github.com/fortross/todo-app-go/pkg/repository"
+	"github.com/fortross/todo-app-go/pkg/service"
 	"github.com/joho/godotenv"
 	_ "github.com/lib/pq"
-	"github.com/sinyakovskiy/todo-app-go"
-	"github.com/sinyakovskiy/todo-app-go/pkg/handler"
-	"github.com/sinyakovskiy/todo-app-go/pkg/repository"
-	"github.com/sinyakovskiy/todo-app-go/pkg/service"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
 	"os"
